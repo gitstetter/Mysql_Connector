@@ -3,7 +3,7 @@ from mysql_connect import ConnectToDatabase, ConnectionError, CredentialsError, 
 config = {'host': '127.0.0.1',
            'user': 'USER',
            'password': 'PASSWORD',
-           'database': 'DB_NAME', }
+           'database': 'DB_NAME'}
 
 
 def write_to_DB(VALUE1: str, VALUE2: str, VALUE3: str) -> None:
